@@ -39,15 +39,15 @@ folder: mydoc
 
 ## Полезно знать
 
-### Прохождение спецчастей контактной сети
+### Прохождение спецчастей контактной сети (3:26)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/N5RlBc3NNgA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-### Обрыв контактной сети
+### Обрыв контактной сети (4:25)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/n9rQeHl5CHU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-### Задний ход
+### Задний ход (1:58)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/p9T75BlfgJ8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
