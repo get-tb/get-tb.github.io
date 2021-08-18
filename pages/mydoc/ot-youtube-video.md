@@ -9,55 +9,18 @@ permalink: ot-youtube-video.html
 folder: mydoc
 ---
 
-## Работа водителя троллейбуса
+## Электробезопасность
 
-Материалы размещены на канале [RusskieLudi](https://www.youtube.com/user/RusskieLudi/featured){:target="_blank"}, мы же на своем сайте разместили лишь ссылки.
+Материалы размещены на канале [ivan sidorov](https://www.youtube.com/channel/UCSwIFYQpwbxGYaqpwGxlVmQ/featured){:target="_blank"}, мы же на своем сайте разместили лишь ссылки.
 
-### Явка водителя на работу (3:57)
+### Действие электрического тока на организм человека. Часть 1 (14:54)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/A4MdmZVPHP0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/hrN2_OJoAIU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-### Приемка троллейбуса (17:00)
+### Действие электрического тока на организм человека. Часть 2 (20:19)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/pNPT1_t8ujk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5rNp77Sus-o" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-### Нулевой рейс (2:19)
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/T0juqXFKupY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-
-### Конечная станция (4:12)
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/7PZziWFH-sg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-
-### Смена на линии (5:24)
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/H_0iXEDfUPU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-
-### Парковый рейс и постановка на отстой (8:57)
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/DjZvnRcAtgY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-
-## Полезно знать
-
-### Контактная сеть
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/N5RlBc3NNgA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-
-### Обрыв контактной сети
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/n9rQeHl5CHU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-
-### Задний ход
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/p9T75BlfgJ8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 
 {% include links.html %}
-
-
-
-
-# ### 
-
-# <iframe width="560" height="315" src="https://www.youtube.com/embed/" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-
