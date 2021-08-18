@@ -3,8 +3,8 @@
 topnav:
 - title: Topnav
   items:
-    - title: GitHub
-      external_url: https://github.com/tomjoht/documentation-theme-jekyll
+#    - title: GitHub
+#      external_url: https://github.com/get-tb/get-tb.github.io
     - title: Новости
       url: /news
     - title: Расписание
