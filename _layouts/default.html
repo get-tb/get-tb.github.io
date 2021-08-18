@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+<head>
+    {% include head.html %}
+    <script>
+        //Типа авторизация
+        (function(){
+            var auth = getCookie('tipaAuth');
+            //console.log(30, document.cookie ,auth,(auth=='yes'));
+            if (auth=='yes') {
+                //document.getElementById('blackScreenForAuth').remove();
+                var tttt = 0;
+                
+                var ftftft = function(){
+                    var el;
+                    el = document.getElementById('blackScreenForAuth');
+                    if (!el) {
+                        setTimeout(ftftft,10);
+                        return;
+                    } else {
+                        el.style.display = 'none';
+                    }
+                }
+                setTimeout(ftftft,30);
+                //document.getElementById('blackScreenForAuth').style.display = 'none';
+            } else {
+                var ttttE = 0;
+                
+                var ftftftE = function(){
+                    var el;
+                    el = document.getElementById('blackScreenForAuth');
+                    if (!el) {
+                        setTimeout(ftftftE,10);
+                        return;
+                    } else {
+                        el.style.display = 'flex';
+                    }
+                }
+                setTimeout(ftftftE,30);
+             
+            }
+            function getCookie(cname) {
+                let name = cname + "=";
+                let decodedCookie = decodeURIComponent(document.cookie);
+                let ca = decodedCookie.split(';');
+                for(let i = 0; i <ca.length; i++) {
+                    let c = ca[i];
+                    while (c.charAt(0) == ' ') {
+                    c = c.substring(1);
+                    }
+                    if (c.indexOf(name) == 0) {
+                    return c.substring(name.length, c.length);
+                    }
+                }
+                return "";
+            }
+            function setCookie(cname, cvalue, exdays) {
+                const d = new Date();
+                d.setTime(d.getTime() + (exdays*24*60*60*1000));
+                let expires = "expires="+ d.toUTCString();
+                document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+            }
+        })();
+            
+            
+        $(document).ready(function() {
+            // Initialize navgoco with default options
+            $("#mysidebar").navgoco({
+                caretHtml: '',
+                accordion: true,
+                openClass: 'active', // open
+                save: false, // leave false or nav highlighting doesn't work right
+                cookie: {
+                    name: 'navgoco',
+                    expires: false,
+                    path: '/'
+                },
+                slide: {
+                    duration: 400,
+                    easing: 'swing'
+                }
+            });
+
+            $("#collapseAll").click(function(e) {
+                e.preventDefault();
+                $("#mysidebar").navgoco('toggle', false);
+            });
+
+            $("#expandAll").click(function(e) {
+                e.preventDefault();
+                $("#mysidebar").navgoco('toggle', true);
+            });
+            //Типа авторизация
+            (function(){
+                var auth = getCookie('tipaAuth');
+                if (auth=='yes') {
+                    //document.getElementById('blackScreenForAuth').remove();
+                    document.getElementById('blackScreenForAuth').style.display = 'none';
+                    return;
+                }
+                document.getElementById('tipaAuthButton').onclick = function(){
+                    var password = document.getElementById('tipaAuthParolya').value;
+                    var login = document.getElementById('tipaAuthLogin').value;
+                    if ((login=='ukk-3tb')&&(password=='zxPO!#76_')) {
+                        setCookie('tipaAuth','yes',1);
+                        //document.getElementById('blackScreenForAuth').remove();
+                        document.getElementById('blackScreenForAuth').style.display = 'none';
+                    } else {
+                        console.log('нет');
+                        document.getElementById('tipaAuthLogin').value = '';
+                        document.getElementById('tipaAuthParolya').value = '';
+                        alert('Авторизация не удалась');
+                    }
+                    
+                    //0.0034
+                };
+                function getCookie(cname) {
+                    let name = cname + "=";
+                    let decodedCookie = decodeURIComponent(document.cookie);
+                    let ca = decodedCookie.split(';');
+                    for(let i = 0; i <ca.length; i++) {
+                        let c = ca[i];
+                        while (c.charAt(0) == ' ') {
+                        c = c.substring(1);
+                        }
+                        if (c.indexOf(name) == 0) {
+                        return c.substring(name.length, c.length);
+                        }
+                    }
+                    return "";
+                }
+                function setCookie(cname, cvalue, exdays) {
+                    const d = new Date();
+                    d.setTime(d.getTime() + (exdays*24*60*60*1000));
+                    let expires = "expires="+ d.toUTCString();
+                    document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+                }
+            })();//*/
+
+            
+
+        });
+
+    </script>
+    <script>
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip()
+        })
+    </script>
+    <script>
+        $(document).ready(function() {
+            $("#tg-sb-link").click(function() {
+                $("#tg-sb-sidebar").toggle();
+                $("#tg-sb-content").toggleClass('col-md-9');
+                $("#tg-sb-content").toggleClass('col-md-12');
+                $("#tg-sb-icon").toggleClass('fa-toggle-on');
+                $("#tg-sb-icon").toggleClass('fa-toggle-off');
+            });
+        });
+    </script>
+    {% if page.datatable == true %}
+    <!-- Include the standard DataTables bits -->
+    <link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.13/css/jquery.dataTables.css">
+    <script type="text/javascript" charset="utf8" src="//cdn.datatables.net/1.10.13/js/jquery.dataTables.js"></script>
+    <!-- First, this walks through the tables that occur between ...-begin
+         and ...-end and add the "datatable" class to them.
+         Then it invokes DataTable's standard initializer
+         Credit here: http://www.beardedhacker.com/blog/2015/08/28/add-class-attribute-to-markdown-table/
+      -->
+    <script>
+      $(document).ready(function(){
+          $('div.datatable-begin').nextUntil('div.datatable-end', 'table').addClass('display');
+          $('table.display').DataTable( {
+              paging: true,
+              stateSave: true,
+              searching: true
+          });
+       });
+    </script>
+    {% endif %}
+
+</head>
+<body>
+{% include topnav.html %}
+<!-- Page Content -->
+<div class="container">
+  <div id="main">
+    <!-- Content Row -->
+    <div class="row">
+        {% assign content_col_size = "col-md-12" %}
+        {% unless page.hide_sidebar %}
+            <!-- Sidebar Column -->
+            <div class="col-md-3" id="tg-sb-sidebar">
+                {% include sidebar.html %}
+            </div>
+            {% assign content_col_size = "col-md-9" %}
+        {% endunless %}
+
+        <!-- Content Column -->
+        <div class="{{content_col_size}}" id="tg-sb-content">
+            {{content}}
+        </div>
+    <!-- /.row -->
+</div>
+<!-- /.container -->
+</div>
+<!-- /#main -->
+    </div>
+
+    
+<!-- Типа защита от неавторизованного доступа. Уровень - русский хакер )) -->
+<div id="blackScreenForAuth" style="width: 100%; height: 100%; background-color: rgb(0, 0, 0); display: none; align-items: center; justify-content: center; position: fixed; z-index: 9998; left: 0px; top: 0px;"> <!--flex-->
+    <div style="padding:50px 0; z-index: 9999"; alighn:center;>
+        <form style="max-width:800px; padding:50px 70px; border-radius:10px; box-shadow:4px 4px 15px rgba(0, 0, 0, 0.2); background-color:#fff;">
+            <p class="text-center" style="font-weight:bold; margin-bottom:30px; font-size:27px;">Форма входа</p>
+            <div class="form-group">
+                <input style="border-radius:10px; margin-bottom:25px; padding:10px 20px;" class="form-control" type="text" name="username" maxlength="15" minlength="4" pattern="^[a-zA-Z0-9_.-]*$" placeholder="Логин" id="tipaAuthLogin" required>
+            </div>
+            <div class="form-group">
+                <input style="border-radius:10px; margin-bottom:25px; padding:10px 20px;" class="form-control" type="password" name="Пароль" minlength="6" placeholder="Пароль" id="tipaAuthParolya" required>
+            </div>
+            <div class="form-group">
+                <input type="button" style="border-radius:30px; padding:10px 20px; font-size:18px; font-weight:bold; background-color:#3f93ff; border:none; color:white; margin-top:20px;" class="btn btn-primary btn-block" id="tipaAuthButton" value="Войти на сайт"></input>
+            </div>
+        </form>
+    </div>
+</div>
+
+</body>
+{% if site.google_analytics %}
+{% include google_analytics.html %}
+{% endif %}
+</html>
+
+{% comment %} Copyright 2021 Google LLC {% endcomment %}

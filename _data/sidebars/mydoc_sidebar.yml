@@ -1,0 +1,125 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: sidebar
+  product: Устаревшее
+  version: 0.3
+  folders:
+
+  - title:
+    output: pdf
+    type: frontmatter
+    folderitems:
+    - title:
+      url: /titlepage.html
+      output: pdf
+      type: frontmatter
+    - title:
+      url: /tocpage.html
+      output: pdf
+      type: frontmatter
+
+  - title: Основные материалы
+    output: web, pdf
+    folderitems:
+
+    - title: Стартовая
+      url: /index.html
+      output: web, pdf
+      type: homepage
+
+    - title: Внешние ссылки
+      url: /external_links.html
+      output: web, pdf
+
+    - title: Расписание
+      url: /schedule.html
+      output: web, pdf
+
+    - title: О проекте
+      url: /mydoc_about.html
+      output: web, pdf
+
+  - title: Электрооборудование
+    output: web, pdf
+    folderitems:
+#
+#    - title: Материалы
+#      url: /mydoc_release_notes_60.html
+#      output: web, pdf
+#
+    - title: Конспекты
+      url: /mydoc_eo_consp.html
+      output: web, pdf
+
+#  - title: Пневмооборудование
+#    output: web, pdf
+#    folderitems:
+
+#  - title: Механическое оборудование
+#    output: web, pdf
+#
+#    folderitems:
+
+#  - title: ПДД
+#    output: web, pdf
+#
+#    folderitems:
+#    - title: Tags
+#      url: /mydoc_tags.html
+#      output: web, pdf
+
+  - title: Организация движения ТБ
+    output: web, pdf
+
+    folderitems:
+    - title: Скорости
+      url: /odt_tb_speeds.html
+      output: web, pdf
+
+#  - title: Культура обслуживания
+#    output: web, pdf
+#
+#    folderitems:
+
+#  - title: Психология
+#    output: web, pdf
+#
+#    folderitems:
+
+#  - title: Организация управления ТС
+#    output: web, pdf
+#
+#    folderitems:
+#    - title: Shuffle layout
+#      url: /mydoc_shuffle.html
+#      output: web, pdf
+
+#  - title: Организация первой помощи
+#    output: web, pdf
+#
+#    folderitems:
+
+#  - title: ЭКЗАМЕНАЦИОННЫЕ БИЛЕТЫ
+#    output: web
+#    folderitems:
+
+  - title: Архив тегов
+    output: web
+    folderitems:
+
+    - title: Обзор архива тегов
+      url: /mydoc_tag_archives_overview.html
+      output: web
+
+      subfolders:
+      - title: Страницы архива тегов
+        output: web
+        subfolderitems:
+
+        - title: About
+          url: /tag_about.html
+          output: web
+
+
+# Copyright 2021 Google LLC
