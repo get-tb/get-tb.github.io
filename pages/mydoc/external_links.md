@@ -2,7 +2,7 @@
 title: Полезные ссылки на внешние источники
 keywords: ссылки, links, documentation, documents, docs, документы, ПТЭ, должностная инструкция, инструкция, Внешние ссылки, внешние ссылки
 last_updated: Aug 17, 2021
-tags: [about, navigation]
+tags: [navigation, важное]
 summary: "На данной странице собраны ссылки на внешние ресурсы: нормативно-правовые акты, полезная информация по техническому устройству троллейбуса и прочие полезные материалы"
 # sidebar: mydoc_sidebar
 permalink: external_links.html

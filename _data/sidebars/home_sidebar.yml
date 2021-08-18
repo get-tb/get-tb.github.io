@@ -65,6 +65,14 @@ entries:
 #
 #    folderitems:
 
+  - title: Охрана труда и Техника безопасности
+    output: web, pdf
+    folderitems:
+
+    - title: Видеоматериалы
+      url: /ot-youtube-video.html
+      output: web, pdf
+
 #  - title: ПДД
 #    output: web, pdf
 #
@@ -81,6 +89,11 @@ entries:
       url: /odt_tb_speeds.html
       output: web, pdf
 
+    - title: Видеоматериалы
+      url: /odt-youtube-video.html
+      output: web, pdf
+
+      
 #  - title: Культура обслуживания
 #    output: web, pdf
 #
@@ -121,17 +134,35 @@ entries:
         output: web
         subfolderitems:
 
-        - title: About
-          url: /tag_about.html
-          output: web
-
-        - title: Навигация
-          url: /tag_navigation.html
+        - title: Важное
+          url: /tag_важное.html
           output: web
 
         - title: Новости
           url: /tag_news.html
           output: web
 
+        - title: Навигация
+          url: /tag_navigation.html
+          output: web
+
+        - title: Youtube
+          url: /tag_youtube.html
+          output: web
+          
+        - title: Видео
+          url: /tag_видео.html
+          output: web
+
+        - title: ОДТ
+          url: /tag_ОДТ.html
+          output: web
+          
+        - title: ОТ
+          url: /tag_ОТ.html
+          output: web
+          
+          
+          
 
 # Copyright 2021 Google LLC
