@@ -69,6 +69,10 @@ entries:
     output: web, pdf
     folderitems:
 
+    - title: Выдержки из конспекта
+      url: /ot_vyderzka_iz_konsp.html
+      output: web, pdf
+
     - title: Видеоматериалы
       url: /ot-youtube-video.html
       output: web, pdf
