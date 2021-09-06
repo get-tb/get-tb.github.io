@@ -103,10 +103,13 @@ entries:
 #
 #    folderitems:
 
-#  - title: Психология
-#    output: web, pdf
-#
-#    folderitems:
+  - title: Психология
+    output: web, pdf
+
+    folderitems:
+    - title: К зачету
+      url: /psy_test.html
+      output: web, pdf
 
 #  - title: Организация управления ТС
 #    output: web, pdf
