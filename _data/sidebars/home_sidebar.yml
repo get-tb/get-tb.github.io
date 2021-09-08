@@ -39,6 +39,10 @@ entries:
     - title: Видеоматериалы
       url: /youtube-video.html
       output: web, pdf
+      
+    - title: Неисправности по ПТЭ
+      url: /pte_faults.html
+      output: web, pdf
 
     - title: О проекте
       url: /mydoc_about.html
@@ -56,14 +60,23 @@ entries:
       url: /mydoc_eo_consp.html
       output: web, pdf
 
-#  - title: Пневмооборудование
-#    output: web, pdf
-#    folderitems:
+  - title: Пневмооборудование
+    output: web, pdf
+    folderitems:
+    
+    - title: К зачету
+      url: /po_test.html
+      output: web, pdf
 
-#  - title: Механическое оборудование
-#    output: web, pdf
-#
-#    folderitems:
+
+  - title: Механическое оборудование
+    output: web, pdf
+
+    folderitems:
+
+    - title: Цифры
+      url: /mo_digits.html
+      output: web, pdf
 
   - title: Охрана труда и Техника безопасности
     output: web, pdf
@@ -111,13 +124,13 @@ entries:
       url: /psy_test.html
       output: web, pdf
 
-#  - title: Организация управления ТС
-#    output: web, pdf
-#
-#    folderitems:
-#    - title: Shuffle layout
-#      url: /mydoc_shuffle.html
-#      output: web, pdf
+  - title: Организация управления ТС
+    output: web, pdf
+
+    folderitems:
+    - title: К зачету
+      url: /outs_test.html
+      output: web, pdf
 
 #  - title: Организация первой помощи
 #    output: web, pdf
