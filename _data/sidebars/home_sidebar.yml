@@ -110,6 +110,25 @@ entries:
       url: /odt-youtube-video.html
       output: web, pdf
 
+    - title: К зачету
+      url: /odt_test.html
+      output: web, pdf
+
+  - title: Организация управления ТС
+    output: web, pdf
+
+    folderitems:
+    - title: К зачету
+      url: /outs_test.html
+      output: web, pdf
+
+  - title: Электроснабжение
+    output: web, pdf
+
+    folderitems:
+    - title: К зачету
+      url: /ks_test.html
+      output: web, pdf
       
 #  - title: Культура обслуживания
 #    output: web, pdf
@@ -122,14 +141,6 @@ entries:
     folderitems:
     - title: К зачету
       url: /psy_test.html
-      output: web, pdf
-
-  - title: Организация управления ТС
-    output: web, pdf
-
-    folderitems:
-    - title: К зачету
-      url: /outs_test.html
       output: web, pdf
 
 #  - title: Организация первой помощи
