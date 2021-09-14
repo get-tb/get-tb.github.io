@@ -44,6 +44,10 @@ entries:
       url: /pte_faults.html
       output: web, pdf
 
+    - title: Приемка по ДИ
+      url: /di_priemka.html
+      output: web, pdf
+
     - title: О проекте
       url: /mydoc_about.html
       output: web, pdf
