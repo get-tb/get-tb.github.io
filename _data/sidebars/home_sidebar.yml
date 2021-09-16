@@ -40,6 +40,14 @@ entries:
       url: /youtube-video.html
       output: web, pdf
       
+    - title: О проекте
+      url: /mydoc_about.html
+      output: web, pdf
+
+  - title: Учебная практика
+    output: web, pdf
+    folderitems:
+  
     - title: Неисправности по ПТЭ
       url: /pte_faults.html
       output: web, pdf
@@ -47,11 +55,13 @@ entries:
     - title: Приемка по ДИ
       url: /di_priemka.html
       output: web, pdf
-
-    - title: О проекте
-      url: /mydoc_about.html
+      
+    - title: Включение Tb Авангард
+      url: /di_pusk_avangard.html
       output: web, pdf
-
+      
+      
+  
   - title: Электрооборудование
     output: web, pdf
     folderitems:
